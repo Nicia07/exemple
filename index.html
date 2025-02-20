@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Déclaration du type de document, spécifie qu'il s'agit d'un document HTML5. -->
+
+<html lang="fr"> 
+<!-- Balise ouvrante pour l'élément HTML. L'attribut `lang="en"` spécifie que la langue principale de la page est en français. -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Déclare l'encodage de caractères de la page en UTF-8, ce qui permet d'afficher correctement tous les caractères spéciaux et non-latins. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Permet de rendre la page responsive en ajustant la largeur de la page à celle de l'appareil. L'attribut `initial-scale=1.0` définit le niveau de zoom initial. -->
+    
+    <script src="fonction.js" defer></script>
+    <!-- Inclut un fichier JavaScript externe (`fonction.js`). L'attribut `defer` indique que le fichier JavaScript sera exécuté après que le HTML ait été complètement chargé, ce qui permet de ne pas bloquer le rendu de la page. -->
+    
+    <title>Revision</title>
+    <!-- Définit le titre de la page qui apparaîtra dans l'onglet du navigateur. -->
+</head>
+<body>
+    <!-- Balise qui contient le contenu visible de la page. -->
+    
+    <div id="boum">0</div>
+    <!-- Un élément `div` avec un `id="boum"`, qui contient initialement le texte "0". Ce div pourrait être utilisé pour afficher une valeur qui sera modifiée par les scripts JavaScript. -->
+    
+    <button id="bougie">increment</button>
+    <!-- Un bouton avec un `id="bougie"`, et le texte "increment". Ce bouton pourrait être utilisé pour incrémenter la valeur affichée dans le `div#boum`. -->
+  
+    <button id="mam">decrement</button>
+    <!-- Un autre bouton avec un `id="mam"`, et le texte "decrement". Ce bouton pourrait être utilisé pour décrémenter la valeur affichée dans le `div#boum`. -->
+  
+</body>
+</html>
